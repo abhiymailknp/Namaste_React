@@ -1,0 +1,43 @@
+1.) What is emmet?
+
+Ans.) Emmet is a web development tool that allows developers to write HTML and CSS code more quickly and efficiently.
+      Emmet uses a shorthand syntax to generate  HTML and CSS code from simple abbreviations.
+      
+2.) Difference between Library and Framework.
+
+Ans.) Library:-
+
+	-> Library is collection of pre-written code that developers can use to perform specific tasks and operations.
+	-> When using a library , developers have more control over their code and architecture, they pick and choose 
+	specific components  or functions from library to incorporate into their application as needed.
+	-> Libraries are typically more flexible and allow developers to implement them in their codebase. 
+	in a way that suits their r equirenments and preferences.
+	
+      Framework :- 
+      	-> A framework is comprehensive and structured set of tools , libraries and conventions that provide a 
+      	foundation for building applications.
+      	-> When using a framework ,we need to follow framework's predefined architectures and patterns.
+      	
+      	
+3.) What is meant by async and defer ?
+
+Ans 3.) Async and Defer are the boolean attributes that are used with '<script>' tag to load the scripts efficiently.
+	when we load the a webpage in browser primarly two main things happen i) HTML Parsing ii) Loading of scripts
+	this loading of scripts have two parts one is fetching the script second is executing it.
+	
+	-> While using normal script tag time can be taken to load the script and execute it then it proceeds to HTML Parsing
+	
+	Async :- While using 'async' in script tag the HTML parsing continues while the script are being fetched 
+		from network asynchronously, as soon as fetching of scripts is completed , the HTML parsing stops 
+		and then scripts are executed.
+
+      	Defer :- While using 'async' in script tag the HTML parsing continues while the script are being fetched 
+		from network asynchronously, as soon as fetching of scripts is completed , the HTML parsing continues 
+		and scripts are only executed once HTML parsing is completed.
+
+      	
+ 4.) What is CDN ? Why do we use it ?
+ 
+ Ans 4.) CDN stands for content Delivery Network , it is network of geographically distributed servers that works together
+		deliver web content such as images/CSS/JS etc. 
+		The primary purpose of using a CDN is to improve the performance , reliability and availibilty of web content.
