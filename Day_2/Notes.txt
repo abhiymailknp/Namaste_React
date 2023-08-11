@@ -1,0 +1,11 @@
+->We can create our own create-react-app command.
+
+-> We need bundlers like webpacks/parcel/vite in web development to bundle and optimise various assets like  JS/CSS/images 
+for deployments in production environments.They Help improve performance, reduce file size and provide additional features
+to enhance the development workflow.
+
+-> NPM - is a package manager that can install packages in our project using node modules.
+
+-> do not keep package-lock.json in .gitignore
+-> package-lock.json locks the version and dependencies of your project / that we can be sure of the dependencies's version 
+on which we were developing.
